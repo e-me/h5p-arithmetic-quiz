@@ -1,92 +1,92 @@
 {
   "semantics":[
     {
-      "label":"Intro",
-      "description":"The intro text (maximum 100 characters)"
+      "label":"Εισαγωγή",
+      "description":"Εισαγωγικό κείμενο (μέχρι 100 χαρακτήρες)"
     },
     {
-      "label":"Arithmetic type",
+      "label":"Αριθμητική πράξη",
       "options":[
         {
-          "label":"Addition"
+          "label":"Πρόσθεση"
         },
         {
-          "label":"Subtraction"
+          "label":"Αφαίρεση"
         },
         {
-          "label":"Multiplication"
+          "label":"Πολλαπλασιασμός"
         },
         {
-          "label":"Division"
+          "label":"Διαίρεση"
         }
       ]
     },
     {
-      "label":"Max number of questions"
+      "label":"Μέγιστος αριθμός ερωτήσεων"
     },
     {
-      "label":"User interface translations",
+      "label":"Μεταφράσεις διεπαφής χρήστη",
       "fields":[
         {
-          "label":"Scoring during quiz",
-          "default":"Score:"
+          "label":"Βαθμολογία κατά τη διάρκεια της άσκησης",
+          "default":"Βαθμολογία"
         },
         {
-          "label":"Time",
-          "default":"Time: @time"
+          "label":"Χρόνος",
+          "default":"Χρόνος @time"
         },
         {
-          "label":"Result page header",
-          "default":"Finished!"
+          "label":"Επικεφαλίδα σελίδας αποτελεσμάτων",
+          "default":"Ολοκλήρωσες την άσκηση!"
         },
         {
-          "label":"Go label",
-          "default":"GO!"
+          "label":"Ετικέτα έναρξης",
+          "default":"Ξεκίνα!"
         },
         {
-          "label":"Start button label",
-          "default":"Start"
+          "label":"Ετικέτα κουμπιού έναρξης",
+          "default":"Έναρξη"
         },
         {
-          "label":"Retry button label",
+          "label":"Ετικέτα κουμπιού νέας προσπάθειας",
           "default":"Επανάληψη"
         },
         {
-          "label":"Readspeaker text for correct answer",
-          "default":"Correct"
+          "label":"Κείμενο ακουστικής υποβοήθησης για τη σωστή απάντηση",
+          "default":"Σωστό"
         },
         {
-          "label":"Readspeaker text for incorrect answer",
-          "default":"Incorrect. Correct answer was :num"
+          "label":"Κείμενο ακουστικής υποβοήθησης για τη λάθος απάντηση",
+          "default":"Λάθος. Η σωστή απάντηση ήταν :num"
         },
         {
-          "label":"Readspeaker label for the timer",
-          "default":"Duration in hours, minutes and seconds."
+          "label":"Ετικέτα ακουστικής υποβοήθησης για το διαθέσιμο χρόνο",
+          "default":"Διάρκεια σε ώρες, λεπτά και δευτερόλεπτα."
         },
         {
-          "label":"Readspeaker text for question",
-          "default":"What does :arithmetic equal?"
+          "label":"Κείμενο ακουστικής υποβοήθησης για την ερώτηση",
+          "default":"Ποιο είναι το αποτέλεσμα της πράξης :arithmetic ;"
         },
         {
-          "label":"Plus operator text",
-          "default":"plus"
+          "label":"Κείμενο τελεστή πρόσθεσης",
+          "default":"συν"
         },
         {
-          "label":"Subtraction operator text",
-          "default":"minus"
+          "label":"Κείμενο τελεστή αφαίρεσης",
+          "default":"μείον"
         },
         {
-          "label":"Multiplication operator text",
-          "default":"times"
+          "label":"Κείμενο τελεστή πολλαπλασιασμού",
+          "default":"επί"
         },
         {
-          "label":"Division operator text",
-          "default":"divided by"
+          "label":"Κείμενο τελεστή διαίρεσης",
+          "default":"διά"
         },
         {
-          "label":"Slide number text",
-          "description":"Announces current slide and total number of slides, variables are :num and :total",
-          "default":"Slide :num of :total"
+          "label":"Κείμενο αριθμού καρτέλας",
+          "description":"Ενημερώνει τον χρήστη σε ποια καρτέλα βρίσκεται, καθώς και για τον συνολικό αριθμό των καρτελών. Οι μεταβλητές που χρησιμοποιούνται είναι :num και :total",
+          "default":"Καρτέλα :num από :total"
         }
       ]
     }
